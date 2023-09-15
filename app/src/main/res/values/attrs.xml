@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="YoutubeContentBelowMenu">
+        <attr name="android:text" format="string"/>
+        <attr name="android:background" format="color"/>
+        <attr name="android:layout_width" format="dimension"/>
+        <attr name="android:layout_height" format="dimension"/>
+    </declare-styleable>
+</resources>
