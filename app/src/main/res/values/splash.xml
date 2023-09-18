@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Training.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#EF7474</item>
+        <item name="postSplashScreenTheme">@style/Theme.Training</item>
+    </style>
+</resources>
