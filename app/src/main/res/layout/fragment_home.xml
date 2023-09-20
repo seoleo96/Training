@@ -30,7 +30,7 @@
 <!--        app:layout_constraintStart_toStartOf="parent"-->
 <!--        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />-->
 
-    <com.example.training.ui.home.CircularProgressBar
+    <com.example.training.ui.home.PreLoader2
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"

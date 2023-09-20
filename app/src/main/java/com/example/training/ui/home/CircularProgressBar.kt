@@ -31,6 +31,7 @@ class CircularProgressBar(
 
     override fun onDraw(canvas: Canvas) {
 
+        canvas.rotate(-90f)
         canvas.drawCircle(100f, 270f, 100f, outerPaint)
 
         canvas.drawArc(rectF, 0F, mAnimatedValue.toFloat(), true, outerPaint)
@@ -56,7 +57,7 @@ class CircularProgressBar(
                         mAnimatedValue = value
                         Log.e(TAG, "startAnimate: mAnimatedValue", )
                         if (value == 360){
-                            outerPaint.color = Color.BLACK
+                            outerPaint.color = Color.GREEN
                         }
                         invalidate()
                     }
